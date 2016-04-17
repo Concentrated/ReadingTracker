@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andy.readingtracker" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ClassView"
+            android:label="Class Page" />
+        <activity android:name=".addClass"
+            android:label="Add New Class" />
+        <activity android:name=".addStudent"
+            android:label="Add New Student"/>
+        <activity android:name=".StudentView"
+            android:label="Student Information"/>
+        <activity android:name=".addBook"
+            android:label="Add New Book"/>
+    </application>
+
+</manifest>
