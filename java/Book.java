@@ -1,8 +1,3 @@
-package com.example.andy.readingtracker;
-
-/**
- * Created by andy on 2/2/2016.
- */
 public class Book {
     private String name;
     private String author;
